@@ -82,6 +82,10 @@ img {
   display: block;
 }
 
+.blurred-image {
+  filter: blur(8px); 
+}
+
 /* Image Placeholder Styling */
 .image-placeholder {
   background-color: var(--bg-alt);
