@@ -239,6 +239,16 @@ img {
   position: relative;
 }
 
+.logo-img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-logo .logo-img {
+  height: 45px;
+}
+
 .nav-link:not(.btn-outline)::after {
   content: '';
   position: absolute;
